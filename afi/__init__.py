@@ -13,7 +13,7 @@ where:
     D = Distortion (structural resistance to traversal)
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 __author__ = "Gonçalo Melo"
 
 from afi.core import freedom, perception, distortion

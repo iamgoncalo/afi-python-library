@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "afi: A Python Library for Freedom-Based Structural Analysis of Swarm Intelligence"
+version: 1.0.0
+date-released: "2026-03-04"
+url: "https://github.com/iamgoncalo/afi-python-library"
+repository-code: "https://github.com/iamgoncalo/afi-python-library"
+license: MIT
+authors:
+  - family-names: Melo
+    given-names: Gonçalo
+    orcid: "https://orcid.org/0009-0008-6255-7724"
+    email: hi@planta.design
+    affiliation: "Independent Researcher, Porto, Portugal"
+keywords:
+  - swarm intelligence
+  - exploration-exploitation
+  - complex adaptive systems
+  - structural analysis
+  - navigability
+  - freedom
+  - perception
+  - distortion
+abstract: >-
+  afi computes Freedom F = P/D — the ratio of Perception
+  (differentiation capacity) to Distortion (structural resistance)
+  — across adaptive systems. It provides the first algorithm-agnostic
+  exploration-exploitation transition metric E(t) = σ[F]/μ[F],
+  convergence bounds, gradient dynamics, and anomaly decomposition
+  for swarm intelligence research.
+references:
+  - type: article
+    authors:
+      - family-names: Melo
+        given-names: Gonçalo
+    title: "Freedom as Navigability: A Ratio Law Unifying Swarm Intelligence, Gradient Dynamics, and Complex Adaptive Systems"
+    year: 2026
+    journal: "SSRN Electronic Journal"
+    doi: "10.2139/ssrn.5137338"

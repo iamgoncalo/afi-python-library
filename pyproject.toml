@@ -1,11 +1,11 @@
 [build-system]
 requires = ["setuptools>=64", "wheel"]
-build-backend = "setuptools.backends._legacy:_Backend"
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "afi"
-version = "0.1.0"
-description = "Architecture of Freedom Intelligence: F = P/D across domains"
+version = "1.0.0"
+description = "Architecture of Freedom Intelligence: Freedom-based structural analysis of swarm intelligence and complex adaptive systems"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
@@ -15,12 +15,17 @@ authors = [
 keywords = [
     "freedom", "swarm-intelligence", "complex-systems", "perception",
     "distortion", "exploration-exploitation", "gradient-dynamics",
+    "structural-analysis", "navigability",
 ]
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Scientific/Engineering :: Mathematics",
@@ -36,9 +41,10 @@ viz = ["matplotlib>=3.5", "seaborn>=0.12"]
 all = ["networkx>=2.8", "salib>=1.4", "scikit-learn>=1.1"]
 
 [project.urls]
-Homepage = "https://github.com/goncalomelo/afi"
-Documentation = "https://github.com/goncalomelo/afi#readme"
-Repository = "https://github.com/goncalomelo/afi"
+Homepage = "https://github.com/iamgoncalo/afi-python-library"
+Documentation = "https://github.com/iamgoncalo/afi-python-library#readme"
+Repository = "https://github.com/iamgoncalo/afi-python-library"
+Issues = "https://github.com/iamgoncalo/afi-python-library/issues"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
